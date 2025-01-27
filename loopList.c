@@ -18,7 +18,7 @@ void displayNodes(node* head){
 node* traveler = head;
 while (traveler != NULL){
   printf("%d",traveler->data);
-  travel = traveler->next;
+  traveler = traveler->next;
 }
   printf("The End....");
 return;
