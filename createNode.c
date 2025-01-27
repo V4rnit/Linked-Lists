@@ -6,7 +6,7 @@ typedef struct node{
 }node;
 node* createNode(int val){
   node* new = (node*)malloc(sizeof(node));
-  new->dat = val;
+  new->data = val;
   new->next = NULL;
 return  new;
 }
