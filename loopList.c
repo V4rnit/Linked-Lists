@@ -15,7 +15,7 @@ void displayNodes(node* head){
     printf("The linked list is empty");
     return;
   }
-node* traveler;
+node* traveler = head;
 while (traveler != NULL){
   printf("%d",traveler->data);
   travel = traveler->next;
